@@ -1,0 +1,35 @@
+{
+  "fn": "getNumDraws",
+  "budget": 30,
+  "timeMs": 8000,
+  "cases": [
+    {
+      "sample": true,
+      "input": [
+        "2011"
+      ],
+      "expected": "516"
+    },
+    {
+      "sample": false,
+      "input": [
+        "2012"
+      ],
+      "expected": "501"
+    },
+    {
+      "sample": false,
+      "input": [
+        "2014"
+      ],
+      "expected": "502"
+    },
+    {
+      "sample": false,
+      "input": [
+        "1990"
+      ],
+      "expected": "0"
+    }
+  ]
+}

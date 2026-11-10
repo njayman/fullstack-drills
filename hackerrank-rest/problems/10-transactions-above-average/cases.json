@@ -1,0 +1,43 @@
+{
+  "fn": "getUserTransaction",
+  "budget": 20,
+  "timeMs": 8000,
+  "cases": [
+    {
+      "sample": true,
+      "input": [
+        "4",
+        "debit",
+        "02-2019"
+      ],
+      "expected": "76\n88\n98"
+    },
+    {
+      "sample": false,
+      "input": [
+        "1",
+        "credit",
+        "03-2019"
+      ],
+      "expected": "14"
+    },
+    {
+      "sample": false,
+      "input": [
+        "2",
+        "debit",
+        "11-2019"
+      ],
+      "expected": "-1"
+    },
+    {
+      "sample": false,
+      "input": [
+        "4",
+        "debit",
+        "01-2010"
+      ],
+      "expected": "-1"
+    }
+  ]
+}

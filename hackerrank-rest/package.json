@@ -1,0 +1,1 @@
+{ "name": "hackerrank-rest", "private": true, "type": "commonjs", "scripts": { "test": "node run.mjs" } }

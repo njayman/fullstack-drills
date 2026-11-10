@@ -1,0 +1,35 @@
+{
+  "fn": "finestFoodOutlet",
+  "budget": 20,
+  "timeMs": 8000,
+  "cases": [
+    {
+      "sample": true,
+      "input": [
+        "Seattle"
+      ],
+      "expected": "Cafe Juanita"
+    },
+    {
+      "sample": false,
+      "input": [
+        "Denver"
+      ],
+      "expected": "Palladium Social"
+    },
+    {
+      "sample": false,
+      "input": [
+        "Houston"
+      ],
+      "expected": "Barbeque Nation"
+    },
+    {
+      "sample": false,
+      "input": [
+        "Omaha"
+      ],
+      "expected": "Barbeque Nation"
+    }
+  ]
+}

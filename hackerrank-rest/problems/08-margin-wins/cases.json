@@ -1,0 +1,39 @@
+{
+  "fn": "getHomeWinsByMargin",
+  "budget": 70,
+  "timeMs": 8000,
+  "cases": [
+    {
+      "sample": true,
+      "input": [
+        "2011",
+        "3"
+      ],
+      "expected": "229"
+    },
+    {
+      "sample": false,
+      "input": [
+        "2014",
+        "1"
+      ],
+      "expected": "885"
+    },
+    {
+      "sample": false,
+      "input": [
+        "2012",
+        "5"
+      ],
+      "expected": "25"
+    },
+    {
+      "sample": false,
+      "input": [
+        "2013",
+        "11"
+      ],
+      "expected": "0"
+    }
+  ]
+}

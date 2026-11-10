@@ -1,0 +1,39 @@
+{
+  "fn": "getTotalGoals",
+  "budget": 20,
+  "timeMs": 8000,
+  "cases": [
+    {
+      "sample": true,
+      "input": [
+        "Barcelona",
+        "2011"
+      ],
+      "expected": "35"
+    },
+    {
+      "sample": false,
+      "input": [
+        "Chelsea",
+        "2011"
+      ],
+      "expected": "93"
+    },
+    {
+      "sample": false,
+      "input": [
+        "Manchester United",
+        "2012"
+      ],
+      "expected": "97"
+    },
+    {
+      "sample": false,
+      "input": [
+        "Nobody FC",
+        "2011"
+      ],
+      "expected": "0"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "fn": "getArticleTitles",
+  "budget": 20,
+  "timeMs": 8000,
+  "cases": [
+    {
+      "sample": true,
+      "input": [
+        "epaga"
+      ],
+      "expected": "A Message to Our Customers\n“Was isolated from 1999 to 2006 with a 486. Built my own late 80s OS”\nApple’s declining software quality"
+    },
+    {
+      "sample": false,
+      "input": [
+        "saintamh"
+      ],
+      "expected": "Google Is Eating Our Mail\nWhy I’m Suing the US Government"
+    },
+    {
+      "sample": false,
+      "input": [
+        "olalonde"
+      ],
+      "expected": "Show HN: This up votes itself\nGuacamole – A clientless remote desktop gateway"
+    },
+    {
+      "sample": false,
+      "input": [
+        "nobody-at-all"
+      ],
+      "expected": ""
+    }
+  ]
+}

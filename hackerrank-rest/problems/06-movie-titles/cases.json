@@ -1,0 +1,35 @@
+{
+  "fn": "getMovieTitles",
+  "budget": 20,
+  "timeMs": 8000,
+  "cases": [
+    {
+      "sample": true,
+      "input": [
+        "spiderman"
+      ],
+      "expected": "Amazing Spiderman Syndrome\nFighting, Flying and Driving: The Stunts of Spiderman 3\nHollywood's Master Storytellers: Spiderman Live\nItalian Spiderman\nSpiderman\nSpiderman\nSpiderman 5\nSpiderman and Grandma\nSpiderman in Cannes\nSuperman, Spiderman or Batman\nThe Amazing Spiderman T4 Premiere Special\nThe Death of Spiderman\nThey Call Me Spiderman"
+    },
+    {
+      "sample": false,
+      "input": [
+        "waterworld"
+      ],
+      "expected": "Behind the Scenes of the Most Fascinating Waterworld on Earth: The Great Backwaters, Kerala.\nDeep Waterworld\nLouise's Waterworld\nSwordquest: Waterworld\nThe Making of 'Waterworld'\nWaterworld\nWaterworld\nWaterworld\nWaterworld\nWaterworld\nWaterworld 4: History of the Islands"
+    },
+    {
+      "sample": false,
+      "input": [
+        "maze runner"
+      ],
+      "expected": "MTV's Million Dollar Maze Runner\nMaze Runner: The Burn Trials\nMaze Runner: The Death Cure\nMaze Runner: The Scorch Trials\nThe Maze Runner\nThe Maze Runner: Creating the World\nThe Maze Runner: Finding the Gang\nThe Maze Runner: The Chuck Diaries\nThe Maze Runner: The Digital Details\nThe Maze Runner: The Maze Is Born\nThe Maze Runner: The Movie Inside the Maze\nThe Maze Runner: Visual Effects"
+    },
+    {
+      "sample": false,
+      "input": [
+        "qwertyzzz"
+      ],
+      "expected": ""
+    }
+  ]
+}

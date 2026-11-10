@@ -1,0 +1,28 @@
+{
+  "fn": "topSpenders",
+  "budget": 30,
+  "timeMs": 6000,
+  "cases": [
+    {
+      "sample": true,
+      "input": [
+        "3"
+      ],
+      "expected": "John Oliver 97285.55\nBob Martin 85250.00\nHelena Fernandez 65445.13"
+    },
+    {
+      "sample": false,
+      "input": [
+        "1"
+      ],
+      "expected": "John Oliver 97285.55"
+    },
+    {
+      "sample": false,
+      "input": [
+        "100"
+      ],
+      "expected": "John Oliver 97285.55\nBob Martin 85250.00\nHelena Fernandez 65445.13\nFrancesco De Mello 62399.34"
+    }
+  ]
+}

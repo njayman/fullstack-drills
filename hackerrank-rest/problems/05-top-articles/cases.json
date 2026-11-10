@@ -1,0 +1,28 @@
+{
+  "fn": "topArticles",
+  "budget": 10,
+  "timeMs": 8000,
+  "cases": [
+    {
+      "sample": true,
+      "input": [
+        "3"
+      ],
+      "expected": "UK votes to leave EU\nF.C.C. Repeals Net Neutrality Rules\nEU approves internet copyright law, including ‘link tax’ and ‘upload filter’"
+    },
+    {
+      "sample": false,
+      "input": [
+        "7"
+      ],
+      "expected": "UK votes to leave EU\nF.C.C. Repeals Net Neutrality Rules\nEU approves internet copyright law, including ‘link tax’ and ‘upload filter’\nSwitch from Chrome to Firefox\nW3C abandons consensus, standardizes DRM, EFF resigns\nTim Cook Speaks Up\nA Message to Our Customers"
+    },
+    {
+      "sample": false,
+      "input": [
+        "1000"
+      ],
+      "expected": "UK votes to leave EU\nF.C.C. Repeals Net Neutrality Rules\nEU approves internet copyright law, including ‘link tax’ and ‘upload filter’\nSwitch from Chrome to Firefox\nW3C abandons consensus, standardizes DRM, EFF resigns\nTim Cook Speaks Up\nA Message to Our Customers\nDon't Fly During Ramadan\nSpaceX’s Falcon Heavy successfully launches\nmacOS High Sierra: Anyone can login as “root” with empty password\nChrome 69 will keep Google Cookies when you tell it to delete all cookies\nParadise Papers: Dear Tim Cook\nPardon Snowden\nHow Uber Used Secret “Greyball” Tool to Deceive Authorities Worldwide\nWhy I Quit Google to Work for Myself\nNo Thank You, Mr. Pecker\nSilicon Valley Women, in Cultural Shift, Frankly Describe Sexual Harassment\nObama Commutes Bulk of Chelsea Manning’s Sentence\nApple’s declining software quality\nGoogle Is Eating Our Mail\nLavabit abruptly shuts down\nWhatsApp co-founder tells everyone to delete Facebook\nFacebook Network Breach Impacts Up to 50M Users\nUber Paid Hackers to Delete Stolen Data on 57M People\nApple has pushed a silent Mac update to remove hidden Zoom web server\nAMP for email is a terrible idea\nI Sell Onions on the Internet\n2048\nUber's playbook for sabotaging Lyft\nSteve Jobs has passed away.\nFTC Probing Facebook for Use of Personal Data, Source Says\nWhy I’m Suing the US Government\nHijack of Amazon’s domain service used to reroute web traffic for two hours\nPaul Allen has died\n“Was isolated from 1999 to 2006 with a 486. Built my own late 80s OS”\nShow HN: A retro video game console I've been working on in my free time\nLeonard Nimoy, Spock of ‘Star Trek,’ Dies at 83\nShow HN: This up votes itself\n\nCIA malware and hacking tools\nGuacamole – A clientless remote desktop gateway"
+    }
+  ]
+}

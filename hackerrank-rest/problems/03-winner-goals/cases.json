@@ -1,0 +1,31 @@
+{
+  "fn": "getWinnerTotalGoals",
+  "budget": 20,
+  "timeMs": 8000,
+  "cases": [
+    {
+      "sample": true,
+      "input": [
+        "UEFA Champions League",
+        "2011"
+      ],
+      "expected": "28"
+    },
+    {
+      "sample": false,
+      "input": [
+        "English Premier League",
+        "2014"
+      ],
+      "expected": "73"
+    },
+    {
+      "sample": false,
+      "input": [
+        "La Liga",
+        "2012"
+      ],
+      "expected": "115"
+    }
+  ]
+}

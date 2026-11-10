@@ -1,0 +1,39 @@
+{
+  "fn": "getCountries",
+  "budget": 30,
+  "timeMs": 8000,
+  "cases": [
+    {
+      "sample": true,
+      "input": [
+        "un",
+        "100090"
+      ],
+      "expected": "8"
+    },
+    {
+      "sample": false,
+      "input": [
+        "an",
+        "10000000"
+      ],
+      "expected": "25"
+    },
+    {
+      "sample": false,
+      "input": [
+        "zz",
+        "0"
+      ],
+      "expected": "0"
+    },
+    {
+      "sample": false,
+      "input": [
+        "United",
+        "0"
+      ],
+      "expected": "4"
+    }
+  ]
+}
